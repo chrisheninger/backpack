@@ -1,0 +1,10 @@
+[user]
+	name = Chris Heninger
+	email = chris@igravitystudios.com
+[push]
+	default = current
+[core]
+	editor = code
+	excludesfile = /Users/chris/.gitignore_global
+[alias]
+	fml = push --force-with-lease
