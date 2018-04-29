@@ -26,6 +26,13 @@ Backpack is a collection of scripts and instructions for setting up a fresh Mac 
 * Screen Saver: [Aerial](https://github.com/JohnCoates/Aerial) 🌆
 * Screen Saver: Different on each display, download + cache 🌉
 
+#### Finder & Dock
+* Adjust size and enable magnification on hover
+* Enable Automatically hide and show the Dock
+* Add Sites directory to sidebar in Finder
+* Add Screenshots directory to sidebar in Finder
+* Add Screenshots directory to Dock
+
 ## Manually Install
 
 * Creative Cloud Apps ([gather the crowd! shout it aloud!](https://www.youtube.com/watch?v=MGUdet0kMhA)) ☁️

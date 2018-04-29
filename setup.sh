@@ -21,3 +21,8 @@ brew cask install vlc
 
 # Copy dotfiles to user's home directory
 cp -a ./dotfiles/. ~/
+
+# Make a screenshots directory and set system to write to it
+mkdir ~/Screenshots
+defaults write com.apple.screencapture location ~/Screenshots
+killall SystemUIServer
