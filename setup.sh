@@ -13,6 +13,7 @@ brew cask install firefox
 brew cask install google-backup-and-sync
 brew cask install google-chrome
 brew cask install iterm2
+brew cask install kap
 brew cask install postico
 brew cask install slack
 brew cask install virtualbox
