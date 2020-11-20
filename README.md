@@ -7,6 +7,13 @@ Backpack is a collection of scripts and instructions for setting up a fresh Mac 
 * `./setup.sh`
 * `./ssh.sh` then paste key to GitHub
 
+## Manually Install
+
+* [Android Studio](https://developer.android.com/studio) 
+* Creative Cloud Apps ([gather the crowd! shout it aloud!](https://www.youtube.com/watch?v=MGUdet0kMhA)) ☁️
+* Divvy (will need `Security & Privacy` -> `Accessibility` permissions post-install) ➗
+* XCode 📲
+
 ## System Preferences
 
 #### Keyboard & Trackpad
@@ -32,10 +39,3 @@ Backpack is a collection of scripts and instructions for setting up a fresh Mac 
 * Add Sites directory to sidebar in Finder
 * Add Screenshots directory to sidebar in Finder
 * Add Screenshots directory to Dock
-
-## Manually Install
-
-* Creative Cloud Apps ([gather the crowd! shout it aloud!](https://www.youtube.com/watch?v=MGUdet0kMhA)) ☁️
-* Divvy (will need `Security & Privacy` -> `Accessibility` permissions post-install) ➗
-* Svgsus 😇
-* XCode 📲

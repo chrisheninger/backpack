@@ -3,8 +3,9 @@
 	email = chris@igravitystudios.com
 [push]
 	default = current
+[pull]
+	rebase = true
 [core]
-	editor = code
 	excludesfile = /Users/chris/.gitignore_global
 [alias]
 	fml = push --force-with-lease

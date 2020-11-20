@@ -1,5 +1,5 @@
 #!/bin/bash
-yes '' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew install git node yarn
 brew install android-platform-tools
 brew install graphicsmagick
@@ -16,12 +16,12 @@ brew cask install iterm2
 brew cask install kap
 brew cask install postico
 brew cask install slack
-brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install vlc
 
 # Copy dotfiles to user's home directory
 cp -a ./dotfiles/. ~/
+git config --global core.excludesfile ~/.gitignore_global 
 
 # Make a screenshots directory and set system to write to it
 mkdir ~/Screenshots
