@@ -3,21 +3,26 @@ yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/i
 brew install git node yarn
 brew install android-platform-tools
 brew install graphicsmagick
-brew cask install 1password
-brew cask install adobe-creative-cloud
-brew cask install aerial
-brew cask install alfred
-brew cask install authy
-brew cask install docker
-brew cask install firefox
-brew cask install google-backup-and-sync
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install kap
-brew cask install postico
-brew cask install slack
-brew cask install visual-studio-code
-brew cask install vlc
+
+brew install bash-completion
+echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+
+# Casks
+brew install --cask 1password
+brew install --cask adobe-creative-cloud
+brew install --cask aerial
+brew install --cask alfred
+brew install --cask authy
+brew install --cask docker
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask google-drive
+brew install --cask iterm2
+brew install --cask kap
+brew install --cask postico
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask vlc
 
 # Copy dotfiles to user's home directory
 cp -a ./dotfiles/. ~/
@@ -27,3 +32,6 @@ git config --global core.excludesfile ~/.gitignore_global
 mkdir ~/Screenshots
 defaults write com.apple.screencapture location ~/Screenshots
 killall SystemUIServer
+
+# Last
+source ~/.bash_profile

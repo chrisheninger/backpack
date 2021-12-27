@@ -9,10 +9,10 @@ Backpack is a collection of scripts and instructions for setting up a fresh Mac 
 
 ## Manually Install
 
-* [Android Studio](https://developer.android.com/studio) 
+* [Android Studio](https://developer.android.com/studio) 🤖
 * Creative Cloud Apps ([gather the crowd! shout it aloud!](https://www.youtube.com/watch?v=MGUdet0kMhA)) ☁️
-* Divvy (will need `Security & Privacy` -> `Accessibility` permissions post-install) ➗
-* XCode 📲
+* [Divvy](https://apps.apple.com/us/app/divvy-window-manager/id413857545) (will need `Security & Privacy` -> `Accessibility` permissions post-install) ➗
+* [XCode](https://apps.apple.com/us/app/xcode/id497799835) 📲
 
 ## System Preferences
 

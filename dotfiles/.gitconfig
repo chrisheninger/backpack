@@ -6,6 +6,6 @@
 [pull]
 	rebase = true
 [core]
-	excludesfile = /Users/chris/.gitignore_global
+	excludesfile = /Users/ch/.gitignore_global
 [alias]
 	fml = push --force-with-lease
