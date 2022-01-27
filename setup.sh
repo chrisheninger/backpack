@@ -1,11 +1,12 @@
 #!/bin/bash
 yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ch/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew install git node yarn
 brew install android-platform-tools
 brew install graphicsmagick
-
-brew install bash-completion
-echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
 
 # Casks
 brew install --cask 1password
@@ -13,7 +14,6 @@ brew install --cask adobe-creative-cloud
 brew install --cask aerial
 brew install --cask alfred
 brew install --cask authy
-brew install --cask docker
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask google-drive
@@ -21,6 +21,7 @@ brew install --cask iterm2
 brew install --cask kap
 brew install --cask postico
 brew install --cask slack
+brew install --cask spotify
 brew install --cask visual-studio-code
 brew install --cask vlc
 
